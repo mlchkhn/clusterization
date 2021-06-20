@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/georgemilyuchickin/CLionProjects/clusterization/cluster.h
+vector
+-
+cmath
+-
+
+/Users/georgemilyuchickin/CLionProjects/clusterization/clusterization.cpp
+iostream
+-
+fstream
+-
+cluster.h
+/Users/georgemilyuchickin/CLionProjects/clusterization/cluster.h
+chrono
+-
+
